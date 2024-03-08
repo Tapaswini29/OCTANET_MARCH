@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites Restaurant</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('food.jpg'); /* Replace 'your-background-image.jpg' with the actual image file path */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #000000; /* Set text color to be readable on the background image */
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value to control the opacity (0 to 1) */
+        }
+
+        header {
+            background-color: #989595;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            background-color: #3c3937;
+            color: #fff;
+            text-align: center;
+            padding: 0.5em 0;
+        }
+
+
+        nav a {
+            color: #fff; /* Set default color for navigation links */
+            text-decoration: none;
+            padding: 0 1em;
+            transition: color 0.3s ease; /* Smooth transition for color change */
+        }
+
+
+        nav a:hover {
+            color: #3498db; /* Change color on hover */
+        }
+
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #f8eaea;
+        }
+
+        .menu-item {
+            border: 1px solid #939ea5;
+            border-radius: 8px;
+            margin: 1em;
+            padding: 1em;
+            background-color: #dadadb;
+            display: inline-block;
+            width: 200px;
+        }
+
+        footer {
+            background-color: #4c5450;
+            color: #fcf9f9;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>DELICIOUS BITES RESTRO AND CAFE</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Menu</a> |
+        <a href="#">Contact</a>|
+        <a href="#">About Us</a>
+    </nav>
+
+    <section>
+        <h2>Our Menu</h2>
+
+        <div class="menu-item">
+            <h3>Margherita Pizza:</h3>
+            <p>Classic pizza topped with fresh tomatoes, mozzarella cheese, basil, and a drizzle of olive oil.</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Chocolate Lava Cake</h3>
+            <p>Indulgent chocolate cake with a gooey, molten center, served with a scoop of vanilla ice cream.</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>BBQ Pulled Pork Sandwich</h3>
+            <p>Slow-cooked pulled pork smothered in barbecue sauce, piled high on a soft bun, and served with coleslaw.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Strawberry Cheesecake</h3>
+            <p>Creamy cheesecake with a graham cracker crust, topped with fresh strawberries and a strawberry glaze.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Crispy Calamari Rings</h3>
+            <p>Lightly battered and fried calamari rings served with a side of marinara sauce and lemon wedges.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Delicious Bites Restaurant
+    </footer>
+
+</body>
+</html>
+
