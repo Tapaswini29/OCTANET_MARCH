@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todolist.css">
+    <title>Restaurant Task Manager</title>
+</head>
+<body>
+    <div class="background-image">
+        <div class="todo-container">
+            <h1>Restaurant Task Manager</h1>
+            <div class="input-container">
+                <input type="text" id="taskInput" placeholder="Add a new task">
+                <button onclick="addTask()">Add Task</button>
+            </div>
+            <div class="categories">
+                <h2>Categories</h2>
+                <ul id="categoryList">
+                    
+                </ul>
+            </div>
+            <ul id="taskList">
+               
+            </ul>
+            <footer>
+                <p>&copy; <span id="currentYear"></span> Restaurant Task Manager</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
